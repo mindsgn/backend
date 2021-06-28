@@ -3,7 +3,7 @@ import cors from "cors";
 import helmet from "helmet";
 
 //routes
-import cards from "./routes/post.route";
+import cards from "./routes/cards.route";
 import orders from "./routes/orders.route";
 
 const PORT: number = 3200;
