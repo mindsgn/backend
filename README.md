@@ -1,9 +1,9 @@
 # backend
 
-## Getting started
+## Follow the following instructions to get started Getting started
 
 ```
-    git clone 
+    git clone https://github.com/mindsgn/backend
 ```
 
 ```
@@ -15,14 +15,19 @@
 ```
 
 ```
-    yarn
+    yarn server    
 ```
 
 
-### Endpoints
+### Endpoints 
+this applications has the following Endpoints
 
 ```
    /sim-cards 
+```
+
+```
+   /orders
 ```
 
 ```
@@ -30,5 +35,7 @@
 ```
 
 ```
-   /orders/
+   /orders?page=:page&limit=:limit
 ```
+
+to test import the file found in the insomia directory.
