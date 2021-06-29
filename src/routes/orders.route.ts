@@ -3,8 +3,11 @@ const router = Router();
 
 const api = require("./../controller/orders.controller");
 
-router.route("/orders").post(api.postOrder);
-router.put("/orders/:id").put(api.putOrder);
-router.route("/orders/:page").get(api.getOrder);
+router.route("/orders")
+.post(api.postOrder)
+.get(api.getOrder);
+
+router.route("/orders/:id")
+.put(api.putOrder);
 
 export default router; 
